@@ -8,6 +8,6 @@ def numOfDays(date1, date2):
 
 
 # Driver program
-date1 = date(2018, 12, 13)
-date2 = date(2019, 2, 25)
+date1 = date(2022, 12, 13)
+date2 = date(2022, 2, 25)
 print(numOfDays(date1, date2), "days")

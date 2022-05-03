@@ -1,6 +1,6 @@
 #Boolean
-a = 200
-b = 33
+a = 33
+b = 200
 
 if b > a:
   print("b is greater than a")

@@ -19,6 +19,6 @@ df = pd.read_csv('dirtydata.csv')
 
 #One way to deal with empty cells is to remove rows that contain empty cells.
 
-#new_df = df.dropna()
+new_df = df.dropna()
 
-#print(new_df.to_string())
+print(new_df.to_string())

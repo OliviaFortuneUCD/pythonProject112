@@ -1,7 +1,7 @@
 #Remove special strings
 import string
 import re
-sample_str = "Test&[88]%%$$$#$%-+String/@"
+sample_str = "Test&[88]%%$$$#$%-+String/@%4545$$$"
 # Create a regex pattern to match all special characters in string
 pattern = r'[' + string.punctuation + ']'
 # Remove special characters from the string

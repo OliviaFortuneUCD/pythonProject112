@@ -5,3 +5,5 @@ df = pd.read_csv('Dirtydata.csv')
 print(df.duplicated())
 
 df.drop_duplicates(inplace = True)
+
+print(df.duplicated())
